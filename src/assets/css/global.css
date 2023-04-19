@@ -1,0 +1,52 @@
+@import url('../fonts/Roboto/font-face.css');
+@import url('./variables.css');
+
+body, h1, h2, h3, h4, h5, h6, p, button{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 3pt;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    background: var(--color-60-primar);
+    color: var(--color-black);
+}
+
+/* flex */
+.flex{display: flex;}
+.row{flex-direction: row;}
+.row-responsive{flex-direction: row;}
+.column{flex-direction: column;}
+.column-responsive{flex-direction: column;}
+.nowrap{flex-wrap: nowrap;}
+.flex-1{flex: 1;}
+.align-center{align-items: center;}
+.justify-center{justify-content: center;}
+.gap-sml{gap: var(--space-sml);}
+.gap-mid{gap: var(--space-mid);}
+.gap-lrg{gap: var(--space-lrg);}
+
+.page-content{
+    padding: var(--space-mid);
+}
+
+.box{
+    padding: var(--space-sml);
+    background: var(--color-white);
+    border-radius: var(--radius-primar);
+}
+
+@media only screen and (max-width: 1400px){
+    /* flex */
+    .row-responsive{flex-direction: column;}
+    .column-responsive{flex-direction: row;}
+}

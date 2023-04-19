@@ -1,0 +1,19 @@
+:root{
+    --color-60-primar: #EAEAEA;
+    --color-30-primar: #3C4048;
+    --color-10-primar: #00ABB3;
+    --color-black: #444444;
+    --color-white: #FFFFFF;
+    --color-dark-hover: rgba(255, 255, 255, 0.2);
+    --color-bright-hover: rgba(225, 255, 255, 0.2);
+
+    --space-tin: 1rem;
+    --space-sml: 3rem;
+    --space-mid: 6rem;
+    --space-lrg: 9rem;
+
+    --radius-primar: 5px;
+
+    /* --screen-width-mobile: 480px;  */
+    /* --screen-width-sml: 1400px; */
+}
